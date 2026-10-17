@@ -1,0 +1,7 @@
+discord.py-self
+aiohttp
+groq
+requests
+flask
+yt-dlp
+psutil
