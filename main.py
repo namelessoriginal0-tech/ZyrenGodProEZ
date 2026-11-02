@@ -38,7 +38,7 @@ if _HOSTED_OWNER_ID:
     if _hosted_tok:
         ACCOUNTS = {f'hosted_{_HOSTED_OWNER_ID}': _hosted_tok}
 
-PREFIX = ","
+PREFIX = "," 
 SETTINGS_FILE = os.environ.get('RYUU_SETTINGS_FILE', 'settings.json')
 START_TIME = time.monotonic()
 
